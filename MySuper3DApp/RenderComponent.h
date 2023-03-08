@@ -37,5 +37,6 @@ protected:
     Microsoft::WRL::ComPtr<ID3D11RasterizerState> rastState;
 
 private:
+
     D3D_PRIMITIVE_TOPOLOGY topology;
 };

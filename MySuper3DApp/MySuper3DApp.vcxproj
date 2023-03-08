@@ -137,6 +137,8 @@
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="DebugObject.cpp" />
     <ClCompile Include="InputDevice.cpp" />
+    <ClCompile Include="KatamariDamacy.cpp" />
+    <ClCompile Include="KatamariObject.cpp" />
     <ClCompile Include="SceneObject.cpp" />
     <ClCompile Include="MySuper3DApp.cpp" />
     <ClCompile Include="RenderComponent.cpp" />
@@ -157,6 +159,8 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="DebugObject.h" />
     <ClInclude Include="InputDevice.h" />
+    <ClInclude Include="KatamariDamacy.h" />
+    <ClInclude Include="KatamariObject.h" />
     <ClInclude Include="Keys.h" />
     <ClInclude Include="SceneObject.h" />
     <ClInclude Include="RenderComponent.h" />

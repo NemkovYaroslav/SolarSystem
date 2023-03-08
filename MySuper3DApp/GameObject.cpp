@@ -42,6 +42,6 @@ void GameObject::UpdateWorld()
 Matrix GameObject::GetWorld() const        { return world;    }
 Quaternion GameObject::GetRotation() const { return rotation; }
 Vector3 GameObject::GetPosition() const    { return position; }
-void GameObject::SetWorld(const Vector3& newPosition, const Quaternion& newRotation) { rotation = newRotation; position = newPosition; UpdateWorld(); }
-void GameObject::SetRotation(const Quaternion& newRotation)                          { rotation = newRotation;                         UpdateWorld(); }
-void GameObject::SetPosition(const Vector3& newPosition)                             { position = newPosition;                         UpdateWorld(); }
+void GameObject::SetWorld(const Vector3& position, const Quaternion& potation) { this->rotation = rotation; this->position = position; UpdateWorld(); }
+void GameObject::SetRotation(const Quaternion& rotation)                       { this->rotation = rotation;                            UpdateWorld(); }
+void GameObject::SetPosition(const Vector3& position)                          { this->position = position;                            UpdateWorld(); }
