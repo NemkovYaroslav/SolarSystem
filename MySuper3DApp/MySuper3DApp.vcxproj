@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="CameraController.cpp" />
+    <ClCompile Include="CollisionComponent.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="Delegates.cpp" />
     <ClCompile Include="DisplayWin32.cpp" />
@@ -137,7 +138,7 @@
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="DebugObject.cpp" />
     <ClCompile Include="InputDevice.cpp" />
-    <ClCompile Include="KatamariDamacy.cpp" />
+    <ClCompile Include="KatamariDamacyGame.cpp" />
     <ClCompile Include="KatamariObject.cpp" />
     <ClCompile Include="SceneObject.cpp" />
     <ClCompile Include="MySuper3DApp.cpp" />
@@ -150,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CameraController.h" />
+    <ClInclude Include="CollisionComponent.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="Delegates.h" />
     <ClInclude Include="DisplayWin32.h" />
@@ -159,7 +161,7 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="DebugObject.h" />
     <ClInclude Include="InputDevice.h" />
-    <ClInclude Include="KatamariDamacy.h" />
+    <ClInclude Include="KatamariDamacyGame.h" />
     <ClInclude Include="KatamariObject.h" />
     <ClInclude Include="Keys.h" />
     <ClInclude Include="SceneObject.h" />

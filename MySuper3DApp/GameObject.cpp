@@ -4,6 +4,7 @@
 GameObject::GameObject(GameObject* parent)
 {
 	this->parent = parent;
+	this->renderComponent = nullptr;
 }
 GameObject::~GameObject()
 {

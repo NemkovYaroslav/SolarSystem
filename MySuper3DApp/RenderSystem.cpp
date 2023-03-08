@@ -43,7 +43,6 @@ RenderSystem::RenderSystem()
 	swapChain->GetBuffer(0, __uuidof(ID3D11Texture2D), (void**)&backBuffer);
 	device->CreateRenderTargetView(backBuffer.Get(), nullptr, &renderView);
 
-// FIX TRANSLUCENCE OF FIGURES
 	D3D11_TEXTURE2D_DESC depthTexDesc = {};
 	depthTexDesc.ArraySize = 1;
 	depthTexDesc.MipLevels = 1;
@@ -58,7 +57,6 @@ RenderSystem::RenderSystem()
 
 	device->CreateTexture2D(&depthTexDesc, nullptr, &depthBuffer);
 	device->CreateDepthStencilView(depthBuffer.Get(), nullptr, &depthView);
-// FIX TRANSLUCENCE OF FIGURES
 }
 
 void RenderSystem::PrepareFrame()
@@ -76,10 +74,7 @@ void RenderSystem::PrepareFrame()
 	context->RSSetViewports(1, viewport.get());
 	float backgroundColor[] = { 0.2f, 0.2f, 0.2f };
 	context->ClearRenderTargetView(renderView.Get(), backgroundColor);
-
-// FIX TRANSLUCENCE OF FIGURES
 	context->ClearDepthStencilView(depthView.Get(), D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1.0f, 0);
-// FIX TRANSLUCENCE OF FIGURES
 }
 
 void RenderSystem::Draw()

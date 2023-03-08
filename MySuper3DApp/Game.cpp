@@ -38,16 +38,10 @@ void Game::PrepareResources()
 	display = std::make_shared<DisplayWin32>(name, clientWidth, clientHeight, WndProc);
 	inputDevice = std::make_shared<InputDevice>();
 	camera = std::make_shared<Camera>();
-
-// RENDER
 	render = std::make_shared<RenderSystem>();
-// RENDER
-
-// CAMERA
 	fpsCameraController = std::make_shared<FPSCameraController>();
 	tpsCameraController = std::make_shared<TPSCameraController>();
-	camera->SetCameraController(fpsCameraController.get());
-// CAMERA
+	camera->SetCameraController(tpsCameraController.get());
 }
 
 void Game::Initialize()

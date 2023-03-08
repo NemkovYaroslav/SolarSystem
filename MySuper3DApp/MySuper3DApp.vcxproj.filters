@@ -84,10 +84,13 @@
     <ClCompile Include="SolarSystemGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="KatamariDamacy.cpp">
+    <ClCompile Include="KatamariDamacyGame.cpp">
       <Filter>Project</Filter>
     </ClCompile>
     <ClCompile Include="KatamariObject.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionComponent.cpp">
       <Filter>Project</Filter>
     </ClCompile>
   </ItemGroup>
@@ -146,10 +149,13 @@
     <ClInclude Include="SolarSystemGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="KatamariDamacy.h">
+    <ClInclude Include="KatamariDamacyGame.h">
       <Filter>Project</Filter>
     </ClInclude>
     <ClInclude Include="KatamariObject.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComponent.h">
       <Filter>Project</Filter>
     </ClInclude>
   </ItemGroup>

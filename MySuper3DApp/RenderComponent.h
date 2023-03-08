@@ -24,7 +24,7 @@ public:
 protected:
 
     std::string shaderFileName;
-
+    D3D_PRIMITIVE_TOPOLOGY topology;
     std::vector<Vector4> points;
     std::vector<int> indices;
 
@@ -35,8 +35,4 @@ protected:
     Microsoft::WRL::ComPtr<ID3D11Buffer>          indexBuffer;
     Microsoft::WRL::ComPtr<ID3D11Buffer>          constBuffer;
     Microsoft::WRL::ComPtr<ID3D11RasterizerState> rastState;
-
-private:
-
-    D3D_PRIMITIVE_TOPOLOGY topology;
 };
