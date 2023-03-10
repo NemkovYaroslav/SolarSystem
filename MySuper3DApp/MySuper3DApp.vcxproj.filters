@@ -28,9 +28,6 @@
     <Filter Include="Source Files\Math">
       <UniqueIdentifier>{2c179167-4018-44a7-b6fe-3a701255c731}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Project">
-      <UniqueIdentifier>{4055ee55-b39a-405a-bc50-bb440ca34beb}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MySuper3DApp.cpp">
@@ -83,15 +80,6 @@
     </ClCompile>
     <ClCompile Include="SolarSystemGame.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="KatamariDamacyGame.cpp">
-      <Filter>Project</Filter>
-    </ClCompile>
-    <ClCompile Include="KatamariObject.cpp">
-      <Filter>Project</Filter>
-    </ClCompile>
-    <ClCompile Include="CollisionComponent.cpp">
-      <Filter>Project</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -148,15 +136,6 @@
     </ClInclude>
     <ClInclude Include="SolarSystemGame.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="KatamariDamacyGame.h">
-      <Filter>Project</Filter>
-    </ClInclude>
-    <ClInclude Include="KatamariObject.h">
-      <Filter>Project</Filter>
-    </ClInclude>
-    <ClInclude Include="CollisionComponent.h">
-      <Filter>Project</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

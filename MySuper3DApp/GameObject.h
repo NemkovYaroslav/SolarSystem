@@ -1,7 +1,6 @@
 #pragma once
 #include "includes.h"
 #include "RenderComponent.h"
-#include "CollisionComponent.h"
 
 class Component;
 
@@ -18,7 +17,6 @@ protected:
 	GameObject* parent = nullptr;
 
 	RenderComponent* renderComponent;
-	CollisionComponent* collisionComponent;
 	std::vector<Component*> components;
 
 public:
